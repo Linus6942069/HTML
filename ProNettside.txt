@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+ <html> 
+<head> 
+<style> 
+body 
+{ 
+background-color: lightblue; 
+
+} 
+
+h1 { color: blue; text-align: center; } 
+p { font-family: verdana; font-size: 20px; } 
+
+</style> 
+</head> 
+<body> 
+
+<h1>Min fine nettside</h1> 
+<p id="demo">Jeg har laget en fin nettside. Jeg har laget en en nettside med html, javascript, og css. Jeg brukte css til backround color og java script til knappen min</p> 
+
+<button onclick="myFunction()">Ta meg </button> <script> 
+
+function myFunction() 
+{ let x = document.getElementById("demo"); 
+x.style.fontSize = "25px"; 
+x.style.color = "yellow"; 
+} 
+
+</script> 
+</body> 
+<html>
+<head>
+<style> 
+div {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  animation-fill-mode: forwards;
+  animation-name: example;
+  animation-duration: 15s;
+}
+
+@keyframes example {
+  from {background-color: red;}
+  to {background-color: yellow;}
+}
+</style>
+</head>
+<body>
+
+<h1>CSS Animation</h1>
+
+<div></div>
+
+<p><b>Note:</b> Etter 15 sekunder går figuren fra rod til gul.</p>
+
+</body>
+</html>
